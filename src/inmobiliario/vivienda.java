@@ -3,7 +3,7 @@ package inmobiliario;
 
 /**
  *
- * @author Elkin Moreno
+ * @author Luis Large
  */
 public class vivienda extends construccion implements venta {
     protected int precio;
@@ -21,9 +21,6 @@ public class vivienda extends construccion implements venta {
         this.piso = piso;
         this.vendido = false;
     }
-
-    
-    
     public int getPrecio() {
         return precio;
     }
@@ -46,18 +43,16 @@ public class vivienda extends construccion implements venta {
 
     public void setPiso(String piso) {
         this.piso = piso;
-    }
-
-        
+    }  
     @Override
     public void vender() {
         this.vendido=true;
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override
     public void precio() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override

@@ -3,7 +3,7 @@ package inmobiliario;
 
 /**
  *
- * @author Elkin Moreno
+ * @author Luis Large
  */
 public class garaje extends superficie  implements alquiler {
     protected String parte;

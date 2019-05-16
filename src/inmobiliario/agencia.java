@@ -1,30 +1,25 @@
 
 package inmobiliario;
-
 import java.util.Iterator;
 import java.util.LinkedList;
-
 /**
  *
- * @author Elkin Moreno
+ * @author Luis Large
  */
 public class agencia {
     LinkedList <inmueble> ventas;
     LinkedList <inmueble> alquilados;
     LinkedList <inmueble> disponibles;
-
     public agencia() {
         this.ventas = new LinkedList<>() ;
         this.alquilados = new LinkedList<>();
         this.disponibles = new LinkedList<>();
     }
-    
     public void Alquilarinmueble(alquiler I){
         if (!this.alquilados.contains(I)){
             I.alquilar();
             inmueble j=(inmueble) I;
         this.alquilados.add(j);
-        
         }
     }
     public void vender(venta I){
@@ -33,7 +28,6 @@ public class agencia {
             inmueble j=(inmueble) I;
             this.ventas.add(j);
         }
-        
     }
     public void Malquileres(){
        for (Iterator i = alquilados.iterator(); i.hasNext();) {
@@ -45,7 +39,6 @@ public class agencia {
         for (Iterator i = ventas.iterator(); i.hasNext();) {
          System.out.println(i.next());
       }
-    }
-    
+    }   
 }
 

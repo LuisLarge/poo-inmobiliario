@@ -3,7 +3,7 @@ package inmobiliario;
 
 /**
  *
- * @author Elkin Moreno
+ * @author Luis Large
  */
 public class superficie extends inmueble{
     protected int precioM2;

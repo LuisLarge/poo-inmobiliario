@@ -3,7 +3,7 @@ package inmobiliario;
 
 /**
  *
- * @author Elkin Moreno
+ * @author Luis Large
  */
 public class solar extends superficie implements venta{
     protected String zona;

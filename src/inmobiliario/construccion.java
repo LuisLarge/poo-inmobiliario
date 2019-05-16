@@ -4,10 +4,9 @@
  * and open the template in the editor.
  */
 package inmobiliario;
-
 /**
  *
- * @author Elkin Moreno
+ * @author Luis Large
  */
 public abstract class construccion extends inmueble {
     protected String estado;
@@ -16,22 +15,15 @@ public abstract class construccion extends inmueble {
         super(ubicacion, m2);
         this.estado = estado;
     }
-    
-  
     public construccion() {
     }
-
     public String getEstado() {
         return estado;
     }
-
     public void setEstado(String estado) {
         this.estado = estado;
     }
-   
-
     abstract public void precio();
-
     @Override
     public String toString() {
         return "construccion{" + "estado=" + estado + '}';

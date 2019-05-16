@@ -3,7 +3,7 @@ package inmobiliario;
 
 /**
  *
- * @author Elkin Moreno
+ * @author Luis Large
  */
 public class inmueble {
     protected String ubicacion;
