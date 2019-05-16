@@ -7,7 +7,7 @@ package inmobiliario;
 
 /**
  *
- * @author Estudiante
+ * @author Elkin Moreno
  */
 public interface alquiler {
     public void alquilar();

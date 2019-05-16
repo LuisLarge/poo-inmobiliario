@@ -1,21 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package inmobiliario;
 
 /**
  *
- * @author Estudiante
+ * @author Elkin Moreno
  */
-public class Inmobiliario {
+public class Inmobiliaria {
 
-    /**
-     * @param args the command line arguments
-     */
+ 
     public static void main(String[] args) {
-        // TODO code application logic here
+    
         
         superficie p= new superficie(100, "santa marta", 16);
         p.precio();

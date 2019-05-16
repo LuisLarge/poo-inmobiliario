@@ -7,7 +7,7 @@ package inmobiliario;
 
 /**
  *
- * @author 10
+ * @author Elkin Moreno
  */
 public interface calculaPrecio {
     

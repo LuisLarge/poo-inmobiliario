@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package inmobiliario;
 
 /**
  *
- * @author Estudiante
+ * @author Elkin Moreno
  */
 public class local extends construccion implements alquiler {
    
@@ -25,17 +21,13 @@ public class local extends construccion implements alquiler {
     }
 
     
-
-    
-    
    
 
     public void setValorxm2(int valorxm2) {
         this.valorxm2 = valorxm2;
      this.alqui = false;
     }
-
-    
+ 
 
     public boolean isAlqui() {
         return alqui;

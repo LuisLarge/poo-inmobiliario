@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package inmobiliario;
 
 /**
  *
- * @author Estudiante
+ * @author Elkin Moreno
  */
 public class vivienda extends construccion implements venta {
     protected int precio;
@@ -25,8 +21,6 @@ public class vivienda extends construccion implements venta {
         this.piso = piso;
         this.vendido = false;
     }
-
-    
 
     
     
@@ -54,8 +48,7 @@ public class vivienda extends construccion implements venta {
         this.piso = piso;
     }
 
-    
-    
+        
     @Override
     public void vender() {
         this.vendido=true;

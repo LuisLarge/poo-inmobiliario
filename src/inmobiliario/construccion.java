@@ -7,7 +7,7 @@ package inmobiliario;
 
 /**
  *
- * @author Estudiante
+ * @author Elkin Moreno
  */
 public abstract class construccion extends inmueble {
     protected String estado;
@@ -17,8 +17,6 @@ public abstract class construccion extends inmueble {
         this.estado = estado;
     }
     
-    
-
   
     public construccion() {
     }
